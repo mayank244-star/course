@@ -1,0 +1,26 @@
+
+  letskodeit:
+    locator:
+         radio_45: "//input[@value="
+         radio_2: "][@type=\"radio\"]"
+         selectdropdown_57: "//select[@id=\"carselect\"]"
+         clickdropdown_60:  "//select[@id=\"carselect\"]//option[text()="
+         drop: "//select[@id=\"multiple-select-example\"]"
+         var_82: "//select[@id=\"multiple-select-example\"]//option[text()="
+        
+         var_95:              "][@type=\"checkbox\"]"
+         var_104:              "//input[@id=\"name\"][@class=\"inputs\"]"
+         var_105:              "//input[@id=\"alertbtn\"]"
+         var_115:              "//input[@id=\"confirmbtn\"]"
+         var_125:                   "//input[@id=\"displayed-text\"]"
+         var_126:                    "//input[@id=\"hide-textbox\"]"
+         var_133:                "//input[@id=\"show-textbox\"]"
+         var_140:                   "//button[@id=\"mousehover\"]"
+         var_141:               "//div[@class=\"mouse-hover-content\"]//a[text()="
+         var_162:              "//button[@id=\"openwindow\"]"
+         frame: "iframe"
+         var_191:                   "//a[@href=\"/courses/javascript-for-beginners\"]"
+         var_212:                    "//div[@class=\"col-md-4\"]"
+         var_216:                     "//a[@class=\"load-more allcourse load-more-btn\"]"
+         var_217:                    "//select[@class=\"form-control categories dynamic-text m-l\"]"
+         var_223:                        "//a[@id=\"opentab\"]"

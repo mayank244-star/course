@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.radio"/>
+      <class name="test.select"/>
+      <class name="test.multipleselect"/>
+      <class name="test.checkbox"/>
+      <class name="test.alert"/>
+      <class name="test.confirm"/>
+      <class name="test.elementdisplay"/>
+      <class name="test.mousehover"/>
+      <class name="test.new_window"/>
+      <class name="test.frame"/>
+      <class name="test.launch"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="test.alert">
+        <methods>
+          <include name="alertwrite"/>
+        </methods>
+      </class> <!-- test.alert -->
+      <class name="test.mousehover">
+        <methods>
+          <include name="alertwrite"/>
+          <include name="mouse"/>
+          <include name="confirmwrite"/>
+          <include name="element"/>
+        </methods>
+      </class> <!-- test.mousehover -->
+      <class name="test.launch">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.launch -->
+      <class name="test.confirm">
+        <methods>
+          <include name="alertwrite"/>
+          <include name="confirmwrite"/>
+        </methods>
+      </class> <!-- test.confirm -->
+      <class name="test.elementdisplay">
+        <methods>
+          <include name="alertwrite"/>
+          <include name="confirmwrite"/>
+          <include name="element"/>
+        </methods>
+      </class> <!-- test.elementdisplay -->
+      <class name="test.frame">
+        <methods>
+          <include name="accessframe"/>
+          <include name="multipledrop"/>
+          <include name="checkboxselect"/>
+          <include name="radioselect"/>
+          <include name="alertwrite"/>
+          <include name="drop"/>
+          <include name="mouse"/>
+          <include name="confirmwrite"/>
+          <include name="element"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.frame -->
+      <class name="test.new_window">
+        <methods>
+          <include name="window"/>
+          <include name="accessframe"/>
+          <include name="alertwrite"/>
+          <include name="mouse"/>
+          <include name="confirmwrite"/>
+          <include name="element"/>
+        </methods>
+      </class> <!-- test.new_window -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
