@@ -11,11 +11,11 @@ import access.confirmbox;
 import access.elementdisplaybox;
 import loodiet.yaml.POM.code;
 
-public class elementdisplay extends confirm {
+public class elementdisplay extends launch {
 	@Test
 	
 	public static void element() throws IOException, InterruptedException {
-confirm.confirmwrite();
+launch.setup();
 		String arg1 = code.text7();
 		String arg2 = code.text8();
 		 String  arg=  elementdisplaybox.locator();

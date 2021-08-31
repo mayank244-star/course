@@ -27,7 +27,7 @@ public static void confirmwrite() throws IOException, InterruptedException {
 		String text3 =  driver.switchTo().alert().getText();
 		System.out.println(text3);
 		driver.switchTo().alert().accept();
-		assertEquals("Hello "+arg2+", share this practice page and share your knowledge",text3);
+		assertEquals("Hello "+arg2+", Are you sure you want to confirm?",text3);
 	 
 }
 }

@@ -13,10 +13,10 @@ import org.testng.annotations.Test;
 
 import access.newtab;
 
-public class new_window extends frame {
+public class new_window extends launch {
 @Test
 	public static void window() throws IOException, InterruptedException {
-	frame.accessframe();
+	launch.setup();
 	
 	String arg1 = newtab.locator();
 	System.out.println(arg1);
@@ -43,7 +43,7 @@ public class new_window extends frame {
 	        System.out.println(value);
 	        assertEquals(true,value);
 			        driver.findElement(By.xpath(arg2)).click();
-			        driver.close();
+			       
 			      
 	}
 	}

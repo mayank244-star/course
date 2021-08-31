@@ -2,9 +2,13 @@ package test;
 
 import static org.testng.Assert.assertEquals;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+
+import access.URL;
 import loodiet.yaml.POM.code;
 
 
@@ -14,7 +18,7 @@ public class launch {
 	
 	@Test
 
-    public static void setup() throws FileNotFoundException{
+    public static void setup() throws IOException{
 
 		 System.setProperty("webdriver.chrome.driver","C:\\Program Files (x86)\\selenium-java-3.141.59\\chromedriver_win32\\chromedriver.exe");
 		 		 
@@ -22,7 +26,7 @@ public class launch {
 				    
 				        driver.manage().window().maximize();
 		       
-		        String  url=  code.access();
+		        String  url=  URL.locator();
 		        driver.get(url);
 		        String actualurl = driver.getCurrentUrl();
 		        System.out.println(actualurl);
