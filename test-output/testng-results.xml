@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78710" started-at="2021-08-31T11:55:15Z" finished-at="2021-08-31T11:56:33Z">
+  <suite name="Default suite" duration-ms="57463" started-at="2021-09-01T09:41:19Z" finished-at="2021-09-01T09:42:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78710" started-at="2021-08-31T11:55:15Z" finished-at="2021-08-31T11:56:33Z">
+    <test name="Default test" duration-ms="57463" started-at="2021-09-01T09:41:19Z" finished-at="2021-09-01T09:42:16Z">
       <class name="test.new_window">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.new_window@2cd91f]" name="setup" duration-ms="22111" started-at="2021-08-31T17:25:15Z" finished-at="2021-08-31T17:25:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.new_window@2cd91f]" name="setup" duration-ms="25609" started-at="2021-09-01T15:11:19Z" finished-at="2021-09-01T15:11:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="window()[pri:0, instance:test.new_window@2cd91f]" name="window" duration-ms="56545" started-at="2021-08-31T17:25:37Z" finished-at="2021-08-31T17:26:33Z">
+        <test-method status="PASS" signature="window()[pri:0, instance:test.new_window@2cd91f]" name="window" duration-ms="31833" started-at="2021-09-01T15:11:44Z" finished-at="2021-09-01T15:12:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- window -->

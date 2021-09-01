@@ -21,4 +21,5 @@ public class radiomethod extends intialization{
 	        System.out.println(v2);
 	        return v2;
 	 }
+	 
 }

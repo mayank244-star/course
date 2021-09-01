@@ -38,9 +38,11 @@ public class new_window extends launch {
 	                    driver.switchTo().window(ChildWindow);
 	            }
 	        }
-
+              
 	        boolean value= driver.findElement(By.xpath(arg2)).isDisplayed();
 	        System.out.println(value);
+	       String current_url =  driver.getCurrentUrl();
+	       assertEquals("https://courses.letskodeit.com/courses",current_url);
 	        assertEquals(true,value);
 			        driver.findElement(By.xpath(arg2)).click();
 			       
