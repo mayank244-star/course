@@ -12,14 +12,12 @@ public class multipleselectoption extends intialization{
 	 public static String multidrop() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("drop");
-	        System.out.println(v1);
 	        return v1;
 	 }
 	 public static String locator2() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("var_82");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 }
 

@@ -16,16 +16,10 @@ public class frame extends mousehover{
 	public static void accessframe() throws IOException, InterruptedException {
 	mousehover.mouse();
 		String var = code.text10();
-		System.out.println(var);
-	String arg = iframe.locator();
-	System.out.println(arg);
+			String arg = iframe.locator();
 	String arg1 = iframe.locator1();
-	System.out.println(arg1);
 	String arg2 = iframe.locator2();
-	System.out.println(arg2);
 	String arg3 = iframe.locator3();
-	System.out.println(arg3);
-
 		int size = driver.findElements(By.tagName(arg)).size();
 	System.out.println(size);
 	WebDriver a = driver.switchTo().frame(var); 

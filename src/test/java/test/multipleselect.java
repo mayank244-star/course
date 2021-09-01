@@ -23,17 +23,14 @@ public class multipleselect extends select {
 	 
 select.drop();
 			        String  arg=  multipleselectoption.multidrop();
-			        System.out.println(arg);
 			        String  arg1=  multipleselectoption.locator2();
-			        System.out.println(arg1);  
 			        Select s=new Select(driver.findElement(By.xpath(arg)));
 				     for(int j=0;j< 2;j++) {
 				        s.selectByIndex(j);
 				        s.selectByIndex(j);
 				     }
 				        Boolean b=s.isMultiple();
-				        System.out.println(b);
-				        List<String> selectedValues = new ArrayList<String>();
+				         List<String> selectedValues = new ArrayList<String>();
 				        List<WebElement> selectedElements = s.getOptions();
 
 				        for(WebElement element : selectedElements) {
@@ -41,14 +38,11 @@ select.drop();
 				        }
 
 				        for(String text1: selectedValues) {
-				            System.out.println(text1);
 				            boolean selected =  driver.findElement(By.xpath(arg1+"'"+text1+"']")).isSelected();
 				    		if(selected) {
-				    			System.out.println(selected);
 				    			assertEquals(true,selected);
 				    		}
 				    		else {
-				    			System.out.println(selected);
 				    			assertEquals(false,selected);
 				    		}
 				        }

@@ -21,14 +21,10 @@ public class mousehover extends elementdisplay{
 	     String arg2 = code.text9();
 	     String arg6 = code.text11();
 			        String  arg1=  radiomethod.locator();
-			        System.out.println(arg1);
-			        String  arg4=  radiomethod.locator3();
-			        System.out.println(arg4);
-		
+			         String  arg4=  radiomethod.locator3();
+			       
 		 String  arg=  mouse_hover.locator();
-	      System.out.println(arg);
 	      String  arg3=  mouse_hover.locator1();
-	      System.out.println(arg3);
 	      
 	      if(arg2.equals("Reload")) {
 	  		driver.findElement(By.xpath(arg)).click();

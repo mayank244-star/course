@@ -31,8 +31,7 @@ public class launch {
 		        driver.get(url);
 		        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);		
 		        String actualurl = driver.getCurrentUrl();
-		        System.out.println(actualurl);
-		        assertEquals(url,actualurl);
+		         assertEquals(url,actualurl);
 		        
 		        
     }

@@ -19,12 +19,9 @@ launch.setup();
 		String arg1 = code.text7();
 		String arg2 = code.text8();
 		 String  arg=  elementdisplaybox.locator();
-	      System.out.println(arg);
 	      String  arg3=  elementdisplaybox.locator1();
-	      System.out.println(arg3);
-	      String  arg4=  elementdisplaybox.locator2();
-	      System.out.println(arg4);
-		if(arg2.equals("hide")) {
+	       String  arg4=  elementdisplaybox.locator2();
+	     	if(arg2.equals("hide")) {
 		   driver.findElement(By.xpath(arg)).sendKeys(arg1);
 		 driver.findElement(By.xpath(arg3)).click();
 		 boolean hide = driver.findElement(By.xpath(arg)).isDisplayed();

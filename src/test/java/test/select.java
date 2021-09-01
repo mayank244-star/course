@@ -25,10 +25,8 @@ public class select extends radio{
 	     radio.radioselect();
 	     String var = code.text3();
 			        String  arg=  dropdown.locator();
-			        System.out.println(arg);
-			        String  arg1=  dropdown.click();
-			        System.out.println(arg1);
-			        WebElement cars = driver.findElement(By.xpath(arg));  
+			         String  arg1=  dropdown.click();
+			         WebElement cars = driver.findElement(By.xpath(arg));  
 					 Select dropdown = new Select(cars);
 					 dropdown.selectByVisibleText(var);
 					 driver.findElement(By.xpath(arg1+"'"+var+"']")).click();
@@ -38,14 +36,11 @@ public class select extends radio{
 				        	Values.add(element.getText());
 				        }
 				        for(String text1: Values) {
-				            System.out.println(text1);
-				            boolean selected =  driver.findElement(By.xpath(arg1+"'"+text1+"']")).isSelected();
+				             boolean selected =  driver.findElement(By.xpath(arg1+"'"+text1+"']")).isSelected();
 				    		if(selected) {
-				    			System.out.println(selected);
 				    			assertEquals(true,selected);
 				    		}
 				    		else {
-				    			System.out.println(selected);
 				    			assertEquals(false,selected);
 				    		}
 				        }

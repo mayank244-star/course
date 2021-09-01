@@ -12,13 +12,11 @@ public class confirmbox extends intialization {
 	       
 	        
 	  	String v1 = (String) var.get("var_104");
-	        System.out.println(v1);
 	        return v1;
 	 }
 	 public static String locator1() throws IOException {
 	       
 	  	String v1 = (String) var.get("var_115");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 }

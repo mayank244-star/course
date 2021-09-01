@@ -11,25 +11,21 @@ public class iframe extends intialization{
 	public static String locator() throws IOException {
 		intialization.initial(); 
   	String v1 = (String) var.get("frame");
-        System.out.println(v1);
-        return v1;
+         return v1;
  }
  public static String locator1() throws IOException {
 	 intialization.initial(); 
   	String v1 = (String) var.get("var_212");
-        System.out.println(v1);
         return v1;
  }
  public static String locator2() throws IOException {
 	 intialization.initial(); 
 	String v1 = (String) var.get("var_216");
-     System.out.println(v1);
      return v1;
 }
  public static String locator3() throws IOException {
 	 intialization.initial(); 
 	String v1 = (String) var.get("var_217");
-     System.out.println(v1);
-     return v1;
+      return v1;
 }
 }

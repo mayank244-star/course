@@ -27,9 +27,7 @@ public class checkbox extends multipleselect {
 	     String var1 = code.text4();
 	     String var2 = code.text2();
 			        String  arg=  checkboxaccess.locator();
-			        System.out.println(arg);
 			        String  ar3=  checkboxaccess.locator1();
-			        System.out.println(ar3);
 			        driver.findElement(By.xpath(arg+"'"+var+"'"+ar3)).click();
 			        boolean radio1 =  driver.findElement(By.xpath(arg+"'"+var+"'"+ar3)).isSelected();
 			    	assertEquals(true,radio1);

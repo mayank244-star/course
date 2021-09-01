@@ -13,19 +13,16 @@ public class elementdisplaybox extends intialization{
 		 intialization.initial(); 
 	
 	  	String v1 = (String) var.get("var_125");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 	 public static String locator1() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("var_126");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 	 public static String locator2() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("var_133");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 }

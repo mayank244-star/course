@@ -18,7 +18,6 @@ public class URL {
 	       HashMap var = (HashMap) letskodeit.get("url");
 			         
 	  	String v1 = (String) var.get("varurl");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 }

@@ -11,13 +11,11 @@ public class checkboxaccess extends intialization {
 	 public static String locator() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("radio_45");
-	        System.out.println(v1);
-	        return v1;
+	         return v1;
 	 }
 	 public static String locator1() throws IOException {
 		 intialization.initial(); 
 	  	String v1 = (String) var.get("var_95");
-	        System.out.println(v1);
 	        return v1;
 	 }
 }
